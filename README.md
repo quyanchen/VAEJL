@@ -26,11 +26,11 @@ pip install -r requirements.txt
 
 ## **Usage**
 
-### Construct Knowledge-Enhanced_PPI Network
+### PreProcessing
 
 Python 1_construct_knowledege-enhanced_ppi.py to Construct Knowledge-Enhanced_PPI Network
 
-### Node Representation Learning
+### Variational Autoencoder-Based Joint Learning
 
 Python 2_train_VAEJL.py to achieve Variational Autoencoder-Based Joint Learning
 
