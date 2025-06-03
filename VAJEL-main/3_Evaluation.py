@@ -317,7 +317,7 @@ with open('result/bio_result_VAEJL.txt', 'w') as result_file:
 
 		expand_thres = 0.3
 		complex_set = expand_cluster(seed_clique, All_node_index, Adj_Matrix, expand_thres)
-		print("##########output predicted complexes##########\n")
+		print()
 		final_file = open(f"result/final_bio_VAEJL_alpha{alpha}_attr_output", "w")
 
 		for i in range(len(complex_set)):
@@ -330,7 +330,7 @@ with open('result/bio_result_VAEJL.txt', 'w') as result_file:
 			final_file.write(line)
 		final_file.close()
 
-		print("##########COAN completes############")
+		print()
 		
 		import networkx as nx
 		import numpy as np
